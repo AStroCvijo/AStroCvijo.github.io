@@ -5,6 +5,7 @@
   text-decoration: none;
   list-style: none;
   font-family: 'Noto Serif', serif;
+  user-select: none;
 }
 
 .active{
@@ -173,6 +174,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .explore-content h1 {
@@ -245,6 +247,7 @@ header {
   color: whitesmoke;
   margin: 20px auto;
   padding: 20px auto;
+  user-select:text;
 }
 
 /* Moblie device*/
